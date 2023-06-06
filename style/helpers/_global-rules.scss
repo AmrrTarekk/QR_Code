@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "outfitReg";
+  src: url("../../fonts/Outfit-Regular.ttf");
+}
+@font-face {
+  font-family: "outfitBold";
+  src: url("../../fonts/Outfit-Bold.ttf");
+}
+* {
+  box-sizing: border-box;
+  font-family: "outfitReg";
+}
+.fontBold {
+  font-family: "outfitBold";
+}
+.fontReg {
+  font-family: "outfitReg";
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
